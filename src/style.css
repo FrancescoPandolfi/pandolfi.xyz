@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-graphite: #1C1C1E;
+    --color-onyx-gray: #2e2e32;
+    --color-slate-black: #2C2C2E;
+    --color-off-white: #dfdfd6;
+    --color-jet-black: #1A1A1A;
+    --font-display: 'Work Sans', 'system-ui';
+    --font-sans: 'Inter', 'system-ui';
+}
+
+.bg-glow {
+    background: radial-gradient(circle at center, var(--color-slate-black) 0%, rgb(28, 28, 30) 60%);
+}
